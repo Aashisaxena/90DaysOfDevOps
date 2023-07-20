@@ -1,0 +1,6 @@
+what is devops ?
+devops is a process of improving the application delivery by ensuring 
+1) proper automatation
+2) quality
+3) monitoring and absorbality 
+4) continuos testing 
