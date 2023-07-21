@@ -1,0 +1,99 @@
+aashi@aashi-VirtualBox:~$ pwd
+/home/aashi
+aashi@aashi-VirtualBox:~$ ls -l
+total 252
+-rw-rw-r-- 1 aashi aashi  5550 May 24  2022  2dtransformation.c
+drwxrwxr-x 3 aashi aashi  4096 Aug 28  2022  a1
+drwxrwxr-x 2 aashi aashi  4096 Aug 28  2022  a2
+-rwxrwxrwx 1 aashi aashi     0 Sep  1  2022  abc
+-rw-rw-r-- 1 aashi aashi  1006 Nov 14  2022  addbook.sh
+-rwxrwxr-x 1 aashi aashi 16144 Nov 14  2022  a.out
+-rw-rw-r-- 1 aashi aashi    52 Sep  1  2022  a.txt
+-rw-rw-r-- 1 aashi aashi   146 Nov 13  2022  bankersalgorithmn.c
+-rw-rw-r-- 1 aashi aashi   758 Nov 12  2022  bankers.c
+-rw-rw-r-- 1 aashi aashi  2285 May 25  2022  boundaryfill.c
+-rwxrwxr-x 1 aashi aashi 16272 Nov 14  2022  b.out
+-rw-rw-r-- 1 aashi aashi  1453 May 26  2022  breshnamcircle.c
+-rw-rw-r-- 1 aashi aashi  1917 Aug 27  2022  breshnamline.c
+-rw-rw-r-- 1 aashi aashi   539 Aug 28  2022  child.c
+-rw-rw-r-- 1 aashi aashi   116 Aug 28  2022  cliessentials.txt
+-rw-rw-r-- 1 aashi aashi     1 Aug 28  2022 'cliessentials.txt^c'
+-rw-rw-r-- 1 aashi aashi     0 Sep  1  2022  c.txt
+drwxr-xr-x 3 aashi aashi  4096 May 26 00:49  Desktop
+drwxr-xr-x 2 aashi aashi  4096 Sep  1  2022  Documents
+drwxr-xr-x 3 aashi aashi  4096 May 24 00:56  Downloads
+-rw-rw-r-- 1 aashi aashi   160 Nov 14  2022  emp.txt
+-rw-rw-r-- 1 aashi aashi   628 Nov 14  2022  f1.c
+-rw-rw-r-- 1 aashi aashi   727 Nov 14  2022  f2.c
+-rw-rw-r-- 1 aashi aashi    45 Aug 28  2022  file1.txt
+-rw-rw-r-- 1 aashi aashi     0 Sep  1  2022  file2
+-rw-rw-r-- 1 aashi aashi   106 Aug 29  2022  file2.txt
+-rw-rw-r-- 1 aashi aashi    39 Aug 28  2022  file3.txt
+-rw-rw-r-- 1 aashi aashi 44077 Sep  1  2022  file4.txt
+-rw-rw-r-- 1 aashi aashi     0 Jul 11 11:19  first
+-rw-rw-r-- 1 aashi aashi  2348 May 24  2022  floodfill.c
+-rw-rw-r-- 1 aashi aashi  4699 May 13  2022  highercog.c
+-rw-rw-r-- 1 aashi aashi  2411 May 13  2022  miniproject.c
+drwxr-xr-x 2 aashi aashi  4096 May 10  2022  Music
+drwxrwxr-x 2 aashi aashi  4096 Aug 28  2022  mydirectory
+-rw-rw-r-- 1 aashi aashi  2411 May 12  2022  pendulum.c
+drwxr-xr-x 3 aashi aashi  4096 Aug 28  2022  Pictures
+-rw-rw-r-- 1 aashi aashi  4132 May 24  2022  polygonclipping.c
+-rw-rw-r-- 1 aashi aashi  4345 May 26  2022  practise.c
+drwxr-xr-x 2 aashi aashi  4096 Aug 28  2022  Public
+-rw-rw-r-- 1 aashi aashi   339 Nov 14  2022  reader.c
+-rw-rw-r-- 1 aashi aashi     0 Jul 11 11:19  shell-script.sh
+-rw-rw-r-- 1 aashi aashi    20 Oct 17  2022  sjfscheduling.cpp
+drwx------ 4 aashi aashi  4096 May 12  2022  snap
+-rw-rw-r-- 1 aashi aashi     0 Nov 14  2022  sorting1.c
+-rw-rw-r-- 1 aashi aashi   927 Nov 14  2022  sorting.c
+drwxr-xr-x 2 aashi aashi  4096 May 10  2022  Templates
+drwxr-xr-x 2 aashi aashi  4096 May 10  2022  Videos
+-rw-rw-r-- 1 aashi aashi   217 Aug 27  2022  w.c
+-rw-rw-r-- 1 aashi aashi   353 Nov 14  2022  writer.c
+aashi@aashi-VirtualBox:~$ ls -a
+ .                    'cliessentials.txt^c'   Music
+ ..                    .config                mydirectory
+ 2dtransformation.c    c.txt                  pendulum.c
+ a1                    Desktop                Pictures
+ a2                    Documents              polygonclipping.c
+ abc                   Downloads              practise.c
+ addbook.sh            emp.txt                .profile
+ a.out                 f1.c                   Public
+ a.txt                 f2.c                   reader.c
+ bankersalgorithmn.c   file1.txt              shell-script.sh
+ bankers.c             file2                  sjfscheduling.cpp
+ .bash_history         file2.txt              snap
+ .bash_logout          file3.txt              sorting1.c
+ .bashrc               file4.txt              sorting.c
+ boundaryfill.c        first                  .ssh
+ b.out                 floodfill.c            .sudo_as_admin_successful
+ breshnamcircle.c      .gnupg                 Templates
+ breshnamline.c        highercog.c            .thunderbird
+ .cache                .local                 Videos
+ child.c               miniproject.c          w.c
+ cliessentials.txt     .mozilla               writer.c
+aashi@aashi-VirtualBox:~$ mkdir -p A/B/C/D
+aashi@aashi-VirtualBox:~$ ls
+ 2dtransformation.c    bankers.c              Desktop     file3.txt       Pictures            sorting.c
+ A                     boundaryfill.c         Documents   file4.txt       polygonclipping.c   Templates
+ a1                    b.out                  Downloads   first           practise.c          Videos
+ a2                    breshnamcircle.c       emp.txt     floodfill.c     Public              w.c
+ abc                   breshnamline.c         f1.c        highercog.c     reader.c            writer.c
+ addbook.sh            child.c                f2.c        miniproject.c   shell-script.sh
+ a.out                 cliessentials.txt      file1.txt   Music           sjfscheduling.cpp
+ a.txt                'cliessentials.txt^c'   file2       mydirectory     snap
+ bankersalgorithmn.c   c.txt                  file2.txt   pendulum.c      sorting1.c
+aashi@aashi-VirtualBox:~$ cd A
+aashi@aashi-VirtualBox:~/A$ ls
+B
+aashi@aashi-VirtualBox:~/A$ cd B
+aashi@aashi-VirtualBox:~/A/B$ ls
+C
+aashi@aashi-VirtualBox:~/A/B$ cd C
+aashi@aashi-VirtualBox:~/A/B/C$ ls
+D
+aashi@aashi-VirtualBox:~/A/B/C$ cd D
+aashi@aashi-VirtualBox:~/A/B/C/D$ ls
+aashi@aashi-VirtualBox:~/A/B/C/D$ ^C
+aashi@aashi-VirtualBox:~/A/B/C/D$
