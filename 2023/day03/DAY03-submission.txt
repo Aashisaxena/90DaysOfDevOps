@@ -1,0 +1,223 @@
+aashi@aashi-VirtualBox:~$ ls
+ 2dtransformation.c     c.txt           mydirectory
+ A                      Desktop         pendulum.c
+ a1                     Documents       Pictures
+ a2                     Downloads       polygonclipping.c
+ abc                    emp.txt         practise.c
+ addbook.sh             f1.c            Public
+ a.out                  f2.c            reader.c
+ a.txt                  file1.txt       shell-script.sh
+ bankersalgorithmn.c    file2           sjfscheduling.cpp
+ bankers.c              file2.txt       snap
+ boundaryfill.c         file3.txt       sorting1.c
+ b.out                  file4.txt       sorting.c
+ breshnamcircle.c       first           Templates
+ breshnamline.c         floodfill.c     Videos
+ child.c                highercog.c     w.c
+ cliessentials.txt      miniproject.c   writer.c
+'cliessentials.txt^c'   Music
+aashi@aashi-VirtualBox:~$ cat c.txt
+aashi@aashi-VirtualBox:~$ pwd
+/home/aashi
+aashi@aashi-VirtualBox:~$ vim file1.txt
+Command 'vim' not found, but can be installed with:
+sudo apt install vim         # version 2:8.2.3995-1ubuntu2.1, or
+sudo apt install vim-tiny    # version 2:8.2.3995-1ubuntu2.1
+sudo apt install neovim      # version 0.6.1-3
+sudo apt install vim-athena  # version 2:8.2.3995-1ubuntu2
+sudo apt install vim-gtk3    # version 2:8.2.3995-1ubuntu2
+sudo apt install vim-nox     # version 2:8.2.3995-1ubuntu2
+aashi@aashi-VirtualBox:~$ vi file1.sh
+aashi@aashi-VirtualBox:~$ cat file1.sh
+B
+B
+Chelllo this is aashi saxena and nice to meet you here
+C
+C
+C
+helllo th
+aashi@aashi-VirtualBox:~$ chmod 777 file1.sh
+aashi@aashi-VirtualBox:~$ history
+    1  gcc highercog.c-lGL-lGLU-lglut-lm
+    2  gcc highercog.c -lGL -lGLU -lglut -lm
+    3  gcc breshnamline.c -lGL -lGLU -lglut -lm
+    4  ./a.out;
+    5  gcc breshnamline.c -lGL -lGLU -lglut -lm
+    6  ./a.out;
+    7  gcc breshnamline.c -lGL -lGLU -lglut -lm
+    8  ./a.out;
+    9  gcc breshnamline.c -lGL -lGLU -lglut -lm
+   10  ./a.out;
+   11  gcc breshnamline.c -lGL -lGLU -lglut -lm
+   12  ./a.out;
+   13  gcc breshnamline.c -lGL -lGLU -lglut -lm
+   14  ./a.out;
+   15  gcc boundaryfill.c -lG -lGLU -lglut -lm;
+   16  gcc boundaryfill.c -lGL -lGLU -lglut -lm;
+   17  ./a.out;
+   18  gcc floodfill.c -lGL -lGLU -lglut -lm;
+   19  ./a.out;
+   20  gcc boundaryfill.c -lGL -lGLU -lglut -lm;
+   21  ./a.out;
+   22  gcc breshnamcircle.c -lGL -lGLU -lglut -lm;
+   23  ./a.out;
+   24  gcc 2dtransformation.c -lGL -lGLU -lglut -lm;
+   25  ./a.out;
+   26  gcc 2dtransformation.c -lGL -lGLU -lglut -lm;
+   27  ./a.out;
+   28  gcc 2dtransformation.c -lGL -lGLU -lglut -lm;
+   29  ./a.out;
+   30  gcc lineclipping.c -lGL -lGLU -lglut -lm;
+   31  gcc lc.c -lGL -lGLU -lglut -lm;
+   32  man 2 fork
+   33  gcc child.c
+   34  cal
+   35  sudo apt install ncal
+   36  bash addbook.sh
+   37  clear
+   38  bash addbook.sh
+   39  clear
+   40  bash addbook.sh
+   41  clear
+   42  bash addbook.sh
+   43  clear
+   44  bash addbook.sh
+   45  gcc writer.c
+   46  hello
+   47  clear
+   48  gcc writer.c
+   49  hello
+   50  gcc writer.c
+   51  clear
+   52  gcc writer.c
+   53  hello
+   54  clear
+   55  gcc writer.c
+   56  gcc reader.c -o b.out
+   57  ./b.out
+   58  gcc reader.c -o b.out
+   59  ./b.out
+   60  clear
+   61  gcc reader.c -o b.out
+   62  ./b.out
+   63  clear
+   64  gcc writer.c -o a.out
+   65  ./a.out
+   66  gcc reader.c -o b.out
+   67  ./b.out
+   68  gcc f1.c
+   69  clear
+   70  gcc f1.c
+   71  clear
+   72  gcc f1.c
+   73  hello
+   74  gcc f2.c -o b.out
+   75  ./b.out
+   76  gcc sorting.c -o a
+   77  gcc sorting.c -o a.out
+   78  ./a.out
+   79  clear
+   80  gcc sorting.c -o a.out
+   81  ./a.out
+   82  gcc sorting.c -o a.out
+   83  ./a.out
+   84  ls
+   85  cat c.txt
+   86  pwd
+   87  vim file1.txt
+   88  vi file1.sh
+   89  cat file1.sh
+   90  chmod 777 file1.sh
+   91  history
+aashi@aashi-VirtualBox:~$ ls
+ 2dtransformation.c     c.txt           Music
+ A                      Desktop         mydirectory
+ a1                     Documents       pendulum.c
+ a2                     Downloads       Pictures
+ abc                    emp.txt         polygonclipping.c
+ addbook.sh             f1.c            practise.c
+ a.out                  f2.c            Public
+ a.txt                  file1.sh        reader.c
+ bankersalgorithmn.c    file1.txt       shell-script.sh
+ bankers.c              file2           sjfscheduling.cpp
+ boundaryfill.c         file2.txt       snap
+ b.out                  file3.txt       sorting1.c
+ breshnamcircle.c       file4.txt       sorting.c
+ breshnamline.c         first           Templates
+ child.c                floodfill.c     Videos
+ cliessentials.txt      highercog.c     w.c
+'cliessentials.txt^c'   miniproject.c   writer.c
+aashi@aashi-VirtualBox:~$ rm writer.c
+aashi@aashi-VirtualBox:~$ ls
+ 2dtransformation.c     c.txt           Music
+ A                      Desktop         mydirectory
+ a1                     Documents       pendulum.c
+ a2                     Downloads       Pictures
+ abc                    emp.txt         polygonclipping.c
+ addbook.sh             f1.c            practise.c
+ a.out                  f2.c            Public
+ a.txt                  file1.sh        reader.c
+ bankersalgorithmn.c    file1.txt       shell-script.sh
+ bankers.c              file2           sjfscheduling.cpp
+ boundaryfill.c         file2.txt       snap
+ b.out                  file3.txt       sorting1.c
+ breshnamcircle.c       file4.txt       sorting.c
+ breshnamline.c         first           Templates
+ child.c                floodfill.c     Videos
+ cliessentials.txt      highercog.c     w.c
+'cliessentials.txt^c'   miniproject.c
+aashi@aashi-VirtualBox:~$ touch fruits.txt
+aashi@aashi-VirtualBox:~$ cat fruits.txt
+aashi@aashi-VirtualBox:~$ vi fruits.txt
+aashi@aashi-VirtualBox:~$ cat fruits.txt
+Apple
+Mango
+Banana
+Cherry
+Kiwi
+Orange
+Guava
+aashi@aashi-VirtualBox:~$ head -n 3 fruits.txt
+Apple
+Mango
+Banana
+aashi@aashi-VirtualBox:~$ tail -n 3 fruits.txt
+Kiwi
+Orange
+Guava
+aashi@aashi-VirtualBox:~$ touch colors.txt
+aashi@aashi-VirtualBox:~$ vi colors.txt
+aashi@aashi-VirtualBox:~$ cat colors.txt
+this terminal is in pipnk color
+aashi@aashi-VirtualBox:~$ echo -e "Red/npink/nWhite/nBlack/nBlue/nOrange/nPurple/nGrey" > colors.txt
+aashi@aashi-VirtualBox:~$ cat colors.txt
+Red/npink/nWhite/nBlack/nBlue/nOrange/nPurple/nGrey
+aashi@aashi-VirtualBox:~$ echo -e "Red\npink\nWhite\nBlack\nBlue\nOrange\nPurple\nGrey" > colors.txt
+aashi@aashi-VirtualBox:~$ cat colors.txt
+Red
+pink
+White
+Black
+Blue
+Orange
+Purple
+Grey
+aashi@aashi-VirtualBox:~$ diff fruits.txt colors.txt
+1,5c1,5
+< Apple
+< Mango
+< Banana
+< Cherry
+< Kiwi
+---
+> Red
+> pink
+> White
+> Black
+> Blue
+7c7,8
+< Guava
+---
+> Purple
+> Grey
+aashi@aashi-VirtualBox:~$ ^C
