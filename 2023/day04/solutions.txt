@@ -1,0 +1,164 @@
+ Shell scripting for DevOps means using simple scripts to make computers do tasks automatically.
+  It's like giving step-by-step instructions to the computer, so it can handle repetitive and boring jobs without human intervention. 
+  These scripts help with things like setting up servers, deploying applications, and managing software. 
+  They save time, reduce mistakes, and make the work of DevOps engineers much easier. 
+  It's like having a helpful robot that follows your commands to do all the boring and time-consuming work for you!
+
+  ans 2) #!/bin/bash and #!/bin/sh are known as shebang or hashbang lines. They are special notations used at the beginning of a script file in Unix-like operating systems to specify the interpreter (shell) that should be used to execute the script.
+
+#!/bin/bash:
+
+This shebang line indicates that the script should be executed using the Bash shell. Bash (short for "Bourne Again SHell") is a popular and feature-rich shell available on most Unix-like systems. It provides additional functionalities and features compared to the standard POSIX-compliant shell (sh).
+#!/bin/sh:
+
+This shebang line specifies that the script should be executed using the default system shell, which is often a POSIX-compliant shell (such as Bash, Dash, or Korn shell). The specific shell used depends on the operating system and its configuration.
+The key difference between #!/bin/bash and #!/bin/sh is that the former explicitly requests the use of the Bash shell, while the latter uses the default system shell. In many systems, /bin/sh is symlinked to the default shell.
+
+You can use either of these shebang lines depending on your needs and preferences. If your script uses features specific to Bash or if you want to ensure consistent behavior across different systems, #!/bin/bash might be preferred. On the other hand, if your script only uses POSIX-compliant features and you want to ensure better portability, you can use #!/bin/sh.
+
+It's worth noting that the shebang line is not limited to just Bash or sh. You can specify the interpreter for other scripting languages as well. For example:
+
+Python script: #!/usr/bin/env python
+Perl script: #!/usr/bin/env perl
+Make sure the specified interpreter path is correct on your system. Additionally, for the shebang line to work properly, the script file must have executable permissions (chmod +x filename.sh to make the script executable).
+
+ans 3)
+
+aashi@aashi-VirtualBox:~$ nano firstshell.sh
+aashi@aashi-VirtualBox:~$ chmod 777 firstshell.sh
+aashi@aashi-VirtualBox:~$ ./firstshell.sh
+bash: ./firstshell.sh: bin/bash: bad interpreter: No such file or directory
+aashi@aashi-VirtualBox:~$ nano firstshell.sh
+aashi@aashi-VirtualBox:~$ ./firstshell.sh
+bash: ./firstshell.sh: bin/bash: bad interpreter: No such file or directory
+aashi@aashi-VirtualBox:~$ ls
+ 2dtransformation.c     c.txt           miniproject.c
+ A                      Desktop         Music
+ a1                     Documents       mydirectory
+ a2                     Downloads       pendulum.c
+ abc                    emp.txt         Pictures
+ addbook.sh             f1.c            polygonclipping.c
+ a.out                  f2.c            practise.c
+ a.txt                  file1.sh        Public
+ bankersalgorithmn.c    file1.txt       reader.c
+ bankers.c              file2           shell-script.sh
+ boundaryfill.c         file2.txt       sjfscheduling.cpp
+ b.out                  file3.txt       snap
+ breshnamcircle.c       file4.txt       sorting1.c
+ breshnamline.c         first           sorting.c
+ child.c                firstshell.sh   Templates
+ cliessentials.txt      floodfill.c     Videos
+'cliessentials.txt^c'   fruits.txt      w.c
+ colors.txt             highercog.c
+aashi@aashi-VirtualBox:~$ cd shellscript.sh
+bash: cd: shellscript.sh: No such file or directory
+aashi@aashi-VirtualBox:~$ cd shell-script.sh
+bash: cd: shell-script.sh: Not a directory
+aashi@aashi-VirtualBox:~$ mkdir shell
+aashi@aashi-VirtualBox:~$ cd shell
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+bash: ./shellscrirt.sh: Permission denied
+aashi@aashi-VirtualBox:~/shell$ chmod 777
+chmod: missing operand after ‘777’
+Try 'chmod --help' for more information.
+aashi@aashi-VirtualBox:~/shell$ chmod 777 shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+aashi@aashi-VirtualBox:~/shell$ nanp shellscrirt.sh
+Command 'nanp' not found, did you mean:
+  command 'nap' from snap nap-snippets (0.1.1)
+  command 'nano' from snap nano (5.7+pkg-4057)
+  command 'nant' from deb nant (0.92~rc1+dfsg-7)
+  command 'nano' from deb nano (6.2-1)
+See 'snap info <snapname>' for additional versions.
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh aashi
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh aashi
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello aashi
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+./shellscrirt.sh: line 17: read: `num1,': not a valid identifier
+./shellscrirt.sh: line 22: syntax error near unexpected token `else'
+./shellscrirt.sh: line 22: `else'
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+./shellscrirt.sh: line 17: read: `num1,': not a valid identifier
+./shellscrirt.sh: line 22: syntax error near unexpected token `else'
+./shellscrirt.sh: line 22: `else'
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+12 43
+./shellscrirt.sh: line 22: syntax error near unexpected token `else'
+./shellscrirt.sh: line 22: `else'
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+1243
+./shellscrirt.sh: line 21: syntax error near unexpected token `else'
+./shellscrirt.sh: line 21: `else'
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+12
+./shellscrirt.sh: line 21: syntax error near unexpected token `else'
+./shellscrirt.sh: line 21: `else'
+aashi@aashi-VirtualBox:~/shell$ nano shellscrirt.sh
+aashi@aashi-VirtualBox:~/shell$ ./shellscrirt.sh
+I will complete 90 days of devops challenge
+/bin/bash
+Please enter your age
+21
+your age is 21
+hello
+comparison of two numbers (shell script)
+12 43
+12 is smaller than 43
+aashi@aashi-VirtualBox:~/shell$ ^C
+aashi@aashi-VirtualBox:~/shell$
